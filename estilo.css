@@ -1,3 +1,25 @@
+/*Header - Aurélio*/
+#textHead{
+    font-family: agency fb;
+}
+.menuHead{
+    margin-top: 10px;
+}
+#btMenu{
+    background-color: rgb(28, 168, 168);
+    padding: 5px;
+    color: black;
+    font-family:Bahnschrift;
+    font-size: 20px;
+}
+#btMenu:hover{
+    background-color: aqua;
+}
+a{
+    text-decoration: none;
+    
+}
+
 body{
     background-color: rgb(23, 204, 204);
 }
@@ -7,6 +29,7 @@ body{
 }
 .sessaoUm{
     display: flex;
+    justify-content: center;
     width: auto;
     padding:10px;
 }
@@ -15,12 +38,12 @@ body{
 
 /*Sessão um*/
 #front{
-    width:900px;
-    float: left;
+    width:50%;
+    float:right;
 }
 #back{
-    width:900px;
-    float: right;
+    width:50%;
+    float: left;
 }
 
 
@@ -33,26 +56,8 @@ body{
 
 
 
+/*     Footer - André      */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Footer */
 #rodape{
     /*background-color: red;*/
     overflow: hidden;
@@ -68,19 +73,54 @@ body{
         height: auto;
     }
 
-    .Midtitle{text-align: center;}
+    .Midtitle{
+        background-color: rgba(18, 133, 133, 0.527);
+        width: 32%;
+        margin: 5px;
+        font-size: 17px;
+        text-align: center;
+        font-family: agency fb;
+        
+  
+    
+    }
+    #textMid{
+        font-family: calibri;
+        font-size: 20px;
+    }
 
     .Logofooter img{
-        width: 20%;
-        margin-top: 2%;
-        margin-left: 25%;
+        margin-top: 10%;
+        margin-left: 1%;
 
     }
+    #gitIco{
+        max-width:40%;
 
+    }
     .Funcionarios{
+        display: flex;
+    }
+    #textFunc{
         text-align: center;
+        font-family: agency fb;
     }
 
-        .Funcionarios .gabriel{width: 150px;}
-        .Funcionarios .andre{width: 102px;}
-        .Funcionarios .aurelio{width: 87px;}
+    #gabriel{
+        width:150px;
+        background-color: black;
+        padding: 10px;
+        margin: 2px;
+    }
+    #andre{
+        width:110px; 
+        background-color: black;
+        padding: 10px;
+        margin: 2px;
+    }
+    #aurelio{
+        width:90px; 
+        background-color: black;
+        padding: 10px;
+        margin: 2px;
+    }
