@@ -4,4 +4,62 @@
 
 #principal{}
 
-#rodape{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#rodape{
+    /*background-color: red;*/
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+    .Logofooter, .Midtitle, .Funcionarios{
+        /*background-color: blue;*/
+        float: left;
+        width: 33.33%;
+        height: auto;
+    }
+
+    .Midtitle{text-align: center;}
+
+    .Logofooter img{
+        width: 20%;
+        margin-top: 2%;
+        margin-left: 25%;
+
+    }
+
+    .Funcionarios{
+        text-align: center;
+    }
+
+        .Funcionarios .gabriel{width: 150px;}
+        .Funcionarios .andre{width: 102px;}
+        .Funcionarios .aurelio{width: 87px;}
